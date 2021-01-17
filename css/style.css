@@ -1,0 +1,14 @@
+@import "variables.css";
+
+/*Components*/
+@import "components/statusbar.css";
+
+/*Screens*/
+@import "screens/index.css";
+
+
+@media screen and (min-width:501px){
+    body{
+        display:none;
+    }
+}

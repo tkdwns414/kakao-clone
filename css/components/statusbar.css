@@ -1,0 +1,10 @@
+.statusbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color:whitesmoke;
+}
+
+.statusbar__icons i:not(:last-child){
+    margin-right:5px;
+}
