@@ -13,12 +13,9 @@
 @import "screens/chats.css";
 @import "screens/hash.css";
 @import "screens/more.css";
+@import "screens/chat.css";
 
-@media screen and (min-width:501px){
-    body{
-        display:none;
-    }
-}
+
 body{
     margin-bottom:80px;
 }
@@ -31,4 +28,25 @@ a {
     outline:none;
     text-decoration: none;
     color:inherit;
+}
+
+#appropriate-size{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    z-index:99;
+    height:100vh;
+    background-color: tomato;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    top:0px;
+}
+
+
+@media screen and (max-width:500px) and (min-width:280px){
+    #appropriate-size{
+        display:none;
+    }
 }
