@@ -1,0 +1,62 @@
+.page__top{
+    margin-top:30px;
+}
+.covid{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.covid__title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.covid__QR{
+    text-align: center;
+    margin:30px 0px;
+}
+.covid__QR-button{
+    padding:10px;
+    border: solid 1px black;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.covid__box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.covid__box :first-child{
+    font-weight: 600;
+    margin-bottom:15px;
+}
+.news{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news div{
+    width:60%;
+    text-align: center;
+}
+.verylarge{
+    margin-top:50px;
+    transform: scale(5);
+}
+
+.tv__warning{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tv__warning h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tv__warning div{
+    color:var(--gray);
+}
+

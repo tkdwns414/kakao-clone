@@ -1,0 +1,53 @@
+.users {
+    display:flex;
+    padding: 5px var(--mainpadd);
+    align-items: center;
+    position:relative;
+    width:100%;
+    box-sizing: border-box;
+    flex-wrap:wrap;
+}
+
+.users__userimg{
+    width:60px;
+    height:60px;
+    border-radius:40%;
+}
+
+.users__userimg__lg{
+    width:70px;
+    height:70px;
+}
+
+.users__userimg__sm{
+    width:50px;
+    height:50px;
+}
+
+.users__text{
+    display:flex;
+    flex-direction: column;
+}
+.users__text__username{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:15px;
+}
+.users__text__usertext{
+    font-size:15px;
+    margin-left:15px;
+}
+.users__more{
+    position:absolute;
+    right:20px;
+    color:var(--gray);
+}
+.users__more i{
+    margin-left: 5px;
+}
+.users__more .badge__content{
+    background-color:tomato;
+    color:white;
+    position:absolute;
+    top:20px;
+}

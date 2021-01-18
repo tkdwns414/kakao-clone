@@ -1,0 +1,7 @@
+.systemfriend__title{
+    color:rgba(0,0,0,0.6);
+    border-top:solid 1px var(--gray);
+    padding-top:10px;
+    margin:0px var(--mainpadd);
+    margin-top:10px;
+}

@@ -2,13 +2,33 @@
 
 /*Components*/
 @import "components/statusbar.css";
+@import "components/heather.css";
+@import "components/nav.css";
+@import "components/badges.css";
+@import "components/user.css";
 
 /*Screens*/
 @import "screens/index.css";
-
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/hash.css";
+@import "screens/more.css";
 
 @media screen and (min-width:501px){
     body{
         display:none;
     }
+}
+body{
+    margin-bottom:80px;
+}
+
+input:focus{
+    outline:none;
+}
+
+a {
+    outline:none;
+    text-decoration: none;
+    color:inherit;
 }

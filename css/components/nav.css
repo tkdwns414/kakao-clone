@@ -1,0 +1,14 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px var(--mainpadd);
+    width:100%;
+    box-sizing: border-box;
+    position:fixed;
+    bottom:0px;
+    background-color:tomato;
+}
+
+.nav__icons{
+    position:relative;
+}

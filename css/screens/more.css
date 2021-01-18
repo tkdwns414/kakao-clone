@@ -1,0 +1,13 @@
+.settings{
+    margin:0px var(--mainpadd);
+}
+
+.settings__box{
+    border-top:1px solid var(--gray);
+    padding:7.5px 0px;
+    display:flex;
+    align-items: center;
+}
+.settings__box i{
+    margin:0px 20px;
+}

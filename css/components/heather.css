@@ -1,0 +1,21 @@
+.screenheather{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px var(--mainpadd);
+    padding-top:50px;
+}
+
+.screenheather__title{
+    font-size:28px;
+    font-weight: bold;
+}
+
+.screenheather__icons i{
+    margin-top:5px;
+    margin-right:10px;
+}
+
+.screenheather__hash__sub{
+    font-size:15px;
+}
